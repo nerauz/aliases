@@ -5,13 +5,15 @@ alias mkcd="mkdir -p -- ${1} && cd -P -- ${1}"
 
 # git
 
-alias ga="git add ."
+alias ga="git add *"
 alias gca="git commit -am"
 alias grs="git reset --soft HEAD^"
 alias grh="git reset --hard HEAD^"
 alias grv="git revert HEAD"
 alias gc="git checkout"
 alias gcf="git checkout --"
+alias gp="git push"
+alias gs="git status"
 
 # kubectl
 
